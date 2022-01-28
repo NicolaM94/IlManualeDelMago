@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">IlManualeDelMago</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="alfabetico">Alfabetico</string>
+    <string name="livelli">Livelli</string>
+    <string name="scuole_di_magia">Scuole di magia</string>
+    <string name="disclaimer">Le immagini e i contenuti di quest\'opera appartengono ai rispettivi autori.\nQuest\'opera è a solo scopo informativo.</string>
+    <string name="hyperlink_string"> Uno speciale ringraziamento a <a href="https://www.twitch.tv/nerd_education">Manuel Costantini</a> per la stesura dei contenuti.</string>
+    <string name="freepick_disclaimer">Logo e immagini create con le opere di Freepik @ pch.vector</string>
+    <string name="request">Se ti piace l\'app e vuoi supportare il mio lavoro, pui farlo su Ko-Fi o Paypal: te ne sarei immensamente grato!</string>
+
+</resources>

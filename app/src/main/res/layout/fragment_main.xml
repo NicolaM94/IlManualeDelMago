@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainFragment">
+
+    <ImageView
+        android:id="@+id/main_logo"
+        android:layout_width="285dp"
+        android:layout_height="235dp"
+        android:src="@drawable/wizardbooklogo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="126dp" />
+
+    <Button
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="25dp"
+        app:layout_constraintTop_toBottomOf="@+id/main_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="250dp"
+        android:background="@drawable/corners_rounder"
+        android:layout_height="50dp"
+        android:id="@+id/alfabetic_button"
+        android:textAllCaps="false"
+        android:text="@string/alfabetico"/>
+
+    <Button
+        android:id="@+id/levels_button"
+        android:text="@string/livelli"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/corners_rounder"
+        app:layout_constraintTop_toBottomOf="@+id/alfabetic_button"
+        app:layout_constraintStart_toStartOf="@+id/alfabetic_button"
+        android:textAllCaps="false"
+        android:layout_width="250dp"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/classes_button"
+        android:text="Classi"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/corners_rounder"
+        app:layout_constraintTop_toBottomOf="@+id/levels_button"
+        app:layout_constraintStart_toStartOf="@+id/levels_button"
+        android:layout_width="250dp"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/schools_button"
+        android:text="@string/scuole_di_magia"
+        android:textAllCaps="false"
+        android:background="@drawable/corners_rounder"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/classes_button"
+        app:layout_constraintStart_toStartOf="@+id/classes_button"
+        android:layout_width="250dp"
+        android:layout_height="50dp"/>
+
+    <Button
+        android:id="@+id/personal_button"
+        android:text="Preferite"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/schools_button"
+        app:layout_constraintStart_toStartOf="@id/schools_button"
+        android:layout_width="250dp"
+        android:background="@drawable/corners_rounder"
+        android:textAllCaps="false"
+        android:layout_height="50dp"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/info_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
