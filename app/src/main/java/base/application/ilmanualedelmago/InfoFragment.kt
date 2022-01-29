@@ -43,6 +43,9 @@ class InfoFragment : Fragment() {
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse(paypaluri))
             it.context.startActivity(intent)
         }
+
+
+
     }
 
     override fun onDestroyView() {

@@ -15,6 +15,9 @@ import androidx.navigation.ui.setupActionBarWithNavController
 
 class MainActivity : AppCompatActivity() {
 
+    companion object {
+        val ciao = "Ciao"
+    }
     private lateinit var navController :NavController
 
     override fun onCreate(savedInstanceState: Bundle?) {
