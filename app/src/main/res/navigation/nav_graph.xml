@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="base.application.ilmanualedelmago.MainFragment"
+        android:name="base.application.ilmanualedelmago.fragments.MainFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/infoFragment"
-        android:name="base.application.ilmanualedelmago.InfoFragment"
+        android:name="base.application.ilmanualedelmago.fragments.InfoFragment"
         android:label="fragment_info"
         tools:layout="@layout/fragment_info" />
 </navigation>

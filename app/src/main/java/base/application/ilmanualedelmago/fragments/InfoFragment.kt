@@ -1,4 +1,4 @@
-package base.application.ilmanualedelmago
+package base.application.ilmanualedelmago.fragments
 
 import android.content.Intent
 import android.net.Uri
